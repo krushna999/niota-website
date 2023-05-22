@@ -29,7 +29,7 @@ const CardLayout = ({ icon, title, content, index }) => {
 
 const ToolCard = () => {
   return (
-    <section id="tools" className={layout.section}>
+    <section id="Download" className={layout.section}>
       <div className={`${layout.sectionImg} flex-col`}>
         {tools.map((tool, index) => (
           <CardLayout key={tool.id} {...tool} index={index} />
